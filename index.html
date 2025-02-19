@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Consulta Clima pelo CEP</title>
+    
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="Container">
+        <h2>Consulta Clima por CEP</h2>
+        <input type="text" id="cep" placeholder="Digite o CEP">
+        <button id="Buscar">buscar</button>
+        <div id="resultado">
+            <p><strong>Cidade</strong><span id="cidade">--</span></p>
+            <p><strong>Temperatura</strong><span id="temperatura">--</span></p>
+            <p><strong>Clima</strong><span id="clima">--</span></p>
+            <p><strong>Vento</strong><span id="vento">--</span></p>
+            <div id="previsao"></div> <!-- Para exibir a previsão dos próximos dias -->
+
+        </div>
+    </div>
+    <link rel="stylesheet" href="./app.js">
+</body>
+</html>

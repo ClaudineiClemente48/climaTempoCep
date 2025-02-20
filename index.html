@@ -10,18 +10,22 @@
 </head>
 <body>
     <div class="Container">
-        <h2>Consulta Clima por CEP</h2>
+
+        <h2>Digite um CEP para ver o clima</h2>
+
         <input type="text" id="cep" placeholder="Digite o CEP">
-        <button id="Buscar">buscar</button>
-        <div id="resultado">
-            <p><strong>Cidade</strong><span id="cidade">--</span></p>
-            <p><strong>Temperatura</strong><span id="temperatura">--</span></p>
-            <p><strong>Clima</strong><span id="clima">--</span></p>
-            <p><strong>Vento</strong><span id="vento">--</span></p>
-            <div id="previsao"></div> <!-- Para exibir a previsão dos próximos dias -->
+
+        <button id="BuscarCep">buscar Clima</button>
+
+       
+        <h2>Resultado</h2>
+        <div id="resultado"></div>
+
+        
+           
 
         </div>
     </div>
-    <link rel="stylesheet" href="./app.js">
+    <script src="./app.js"></script>
 </body>
 </html>
